@@ -32,10 +32,6 @@
 
 👉 터미널을 열고 아래 명령어를 실행합니다.
 
-```bash
-pip install selenium bs4 webdriver_manager
-
-
 🚀 사용 방법
 1️⃣ 스크립트 실행
 👉 터미널에서 아래 명령어를 실행합니다.
