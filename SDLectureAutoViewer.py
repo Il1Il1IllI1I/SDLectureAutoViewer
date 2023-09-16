@@ -10,8 +10,7 @@ from bs4 import BeautifulSoup
 # 웹드라이버 초기 설정
 options = Options()
 options.add_experimental_option("detach", True)
-service = Service(ChromeDriverManager().install())
-driver = webdriver.Chrome(service=service, options=options)
+driver = webdriver.Chrome(executable_path='C:\\Users\\USER\\Downloads\\chromedriver_win32\\chromedriver.exe', options=options)
 
 # 로그인 페이지 열기
 login_url = "http://www.sdulife.com/99_Etc/DupLogin.asp?Referrer=stud.sdulife.com/Frameset/Main.asp"
