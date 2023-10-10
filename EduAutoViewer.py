@@ -37,7 +37,7 @@ time.sleep(1)
 input("공인인증서, PC등록 완료되면 엔터키")
 
 # lecture_codes = ['20', '39', '22', '03', '02', '01', '04', '31'] #Choi
-lecture_codes = ['51', '13', '52', '54','55', '56', '57']  #Sung
+lecture_codes = ['51', '13', '52', '54', '55', '56', '57']  #Sung, 
 
 
 lecture_durations = {code: fetch_lecture_durations(driver, code) for code in lecture_codes}
