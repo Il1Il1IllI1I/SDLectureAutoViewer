@@ -41,7 +41,7 @@ def view_lecture(code, durations):
         try:
             element = driver.find_element(By.XPATH, f'//*[@id="Menu_js_img"]/div[3]/table[2]/tbody[{i+1}]/tr/td[4]/div/a/span/img')
             element.click()
-            time.sleep(duration * 0.8)
+            time.sleep((duration + 1) * 60)
         except Exception as e:
             print(f"내부 루프 오류: {e}")
 
